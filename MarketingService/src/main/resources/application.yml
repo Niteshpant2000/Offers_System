@@ -4,7 +4,7 @@ spring:
   api:
     version: v1
 server:
-  port: 8083
+  port: 8086
 eureka:
   client:
     registerWithEureka: true

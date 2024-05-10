@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OffersController{
     @GetMapping("/drivers/{driver-id}/offers")
     public ResponseEntity<String> getOffers(@PathVariable(value="driver-id") String driverId){
+        System.out.println("Working on Offers");
         return ResponseEntity.ok("Working on Offers");
     }
 }
